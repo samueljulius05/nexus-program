@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Forms project 1</title>
+        <link rel="stylesheet" href="formproject.css">
+    </head>
+    <header>
+        
+    <h1>Registration</h1>
+    <p>Fill the form below appropriately</p>
+
+        
+    </header>
+    <body>
+    <form action="" method="post">
+       
+      <fieldset>
+        <legend>Personal Details</legend>
+       <div class="Personal">
+        <label>First Name
+            <input type="text" name="First Name" maxlength="30" required="required"/>
+
+        </label><br><br>
+       
+       
+        <label>Last Name
+            <input type="text" name="Last Name" maxlength="30" required="required"/>
+        </label><br><br>
+       
+        <label>Password
+            <input type="password" name="password" maxlength="30" required="required">
+
+       </label><br><br>
+       
+       <label>What do you think about this form?</label><br>
+        <textarea name="comments"></textarea>
+        </div>
+       </fieldset>
+       <fieldset>
+        <legend>Other details</legend>
+        <div class="Others">
+        <p>Choose your favourite sport <br>
+            <input type="radio" name="sport" value="football"><label>Football</label>
+            <input type="radio" name="sport" value="Basketball"><label>Basketball</label>
+            <input type="radio" name="sport" value="Badminton"><label>Badminton</label>
+     </p>
+    
+    
+     <p>Choose your favourite colour(s)<br>
+            <input type="checkbox" name="colour" value="Blue"<label>Blue</label><br>
+            <input type="checkbox" name="colour" value="Red"><label>Red</label><br>
+            <input type="checkbox" name="colour" value="Green"><label>Green</label><br>
+            <input type="checkbox" name="colour" value="Pink"><label>Pink</label><br>
+            <input type="checkbox" name="colour" value="brown"><label>Brown</label>
+    </p>
+     
+    
+    <p>What market(s) do you trade?</p>
+        <select>
+            <option value="Cryptocurrency">Cryptocurrency</option>
+            <option value="Forex">Forex</option>
+            <option value="Synthetics">Synthetics</option>
+            <option value="Commodities">Commodities</option>
+            <option value="indices">Indices</option>
+        </select>
+        </div>
+    </fieldset>
+    <fieldset>
+      <legend>Uploads</legend>
+      <div class="uploads">
+    <p>Upload a picture of your strategy</p>
+        <input type="file" name="Strategy" required="required"><br>
+         <input type="submit" value="Upload">
+    
+    
+    <p>Suscribe to our email list for constant updates</p>
+        <input type="text" name="email">
+        <input type="submit" value="Upload">
+</div>
+</fieldset>
+       
+    </form>
+</body>
+</html>
